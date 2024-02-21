@@ -1,0 +1,91 @@
+<routes>
+	<vType id="car" accel="1.0" decel="5.0" length="4.0" minGap="2.5" maxSpeed="50.0" sigma="0.5"/>
+	<route id="ns" edges="E2 E3 "/>
+	<route id="nw" edges="E2 -E0 "/>
+	<route id="sn" edges="-E3 -E2 "/>
+	<route id="se" edges="-E3 E1 "/>
+	<route id="ew" edges="-E1 -E0 "/>
+	<route id="en" edges="-E1 -E2 "/>
+	<route id="we" edges="E0 E1 "/>
+	<route id="ws" edges="E0 E3 "/>
+	<vehicle depart="2" id="veh2_9" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="4" id="veh4_2" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="10" id="veh2_4" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="10" id="veh3_9" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="15" id="veh4_4" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="17" id="veh4_8" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="27" id="veh4_6" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="32" id="veh7_8" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="41" id="veh7_1" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="54" id="veh1_5" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="56" id="veh1_0" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="58" id="veh6_8" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="91" id="veh2_0" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="94" id="veh1_1" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="96" id="veh6_3" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="107" id="veh7_2" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="113" id="veh2_1" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="113" id="veh4_9" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="157" id="veh2_5" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="159" id="veh1_2" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="170" id="veh4_7" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="175" id="veh6_6" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="180" id="veh6_9" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="201" id="veh7_3" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="202" id="veh6_1" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="204" id="veh2_6" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="206" id="veh0_3" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="222" id="veh4_1" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="223" id="veh0_6" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="223" id="veh5_7" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="233" id="veh4_5" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="273" id="veh6_4" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="274" id="veh5_1" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="283" id="veh4_3" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="293" id="veh3_1" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="305" id="veh5_2" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="309" id="veh0_1" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="311" id="veh0_4" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="314" id="veh3_2" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="314" id="veh5_3" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="324" id="veh7_6" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="330" id="veh0_8" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="332" id="veh1_6" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="348" id="veh6_5" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="351" id="veh6_7" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="356" id="veh2_3" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="356" id="veh3_7" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="378" id="veh2_7" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="379" id="veh7_4" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="391" id="veh6_0" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="394" id="veh0_5" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="395" id="veh6_2" route="we" type="car" color="1,0,0"/>
+	<vehicle depart="404" id="veh5_8" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="407" id="veh0_2" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="416" id="veh0_7" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="431" id="veh1_7" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="433" id="veh5_9" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="444" id="veh4_0" route="ew" type="car" color="1,0,0"/>
+	<vehicle depart="445" id="veh7_5" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="454" id="veh3_8" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="466" id="veh3_6" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="472" id="veh1_8" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="478" id="veh5_6" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="502" id="veh5_4" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="514" id="veh3_5" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="518" id="veh1_4" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="518" id="veh3_0" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="529" id="veh1_3" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="533" id="veh7_0" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="549" id="veh5_0" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="556" id="veh3_4" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="560" id="veh2_8" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="563" id="veh7_7" route="ws" type="car" color="1,0,0"/>
+	<vehicle depart="567" id="veh3_3" route="se" type="car" color="1,0,0"/>
+	<vehicle depart="567" id="veh5_5" route="en" type="car" color="1,0,0"/>
+	<vehicle depart="568" id="veh1_9" route="nw" type="car" color="1,0,0"/>
+	<vehicle depart="578" id="veh0_9" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="588" id="veh0_0" route="ns" type="car" color="1,0,0"/>
+	<vehicle depart="588" id="veh2_2" route="sn" type="car" color="1,0,0"/>
+	<vehicle depart="597" id="veh7_9" route="ws" type="car" color="1,0,0"/>
+</routes>

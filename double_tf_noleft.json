@@ -1,0 +1,72 @@
+{
+    "gui": false,
+    "debug": false,
+    "sumo_folder": "sumofiles",
+    "sumo_cfg_file": "config.sumocfg",
+    "net_file": "double_tf_noleft.net.xml",
+    "duration": 600,
+    "fitness_mode": "time",
+
+    "iterations": 10,
+    "parents_number": 5,
+    "children_number" : 5,
+    "crossing_points": 1,
+    "crossing_mode": "classic",
+    "initial_pop_size": 8,
+
+    "intersections": [
+        {
+            "kind": "tf",
+            "id": "J1",
+            "visibility": 20.0,
+            "mutation_proba": 0.8,
+            "mutation_max": 3,
+            "phases": ["GGrrGGrr", "yyrryyrr", "rrGGrrGG", "rryyrryy"],
+            "min_phase_time": 3,
+            "cycle_time": 120
+        },
+        {
+            "kind": "tf",
+            "id": "J2",
+            "visibility": 20.0,
+            "mutation_proba": 0.8,
+            "mutation_max": 3,
+            "phases": ["GGrrGGrr", "yyrryyrr", "rrGGrrGG", "rryyrryy"],
+            "min_phase_time": 3,
+            "cycle_time": 120
+        }
+    ],
+
+    "routes": [
+        {
+            "label": "ns1",
+            "vehicles": 10,
+            "edges": ["E2","E3"]
+        },
+        {
+            "label": "ns2",
+            "vehicles": 10,
+            "edges": ["E4","E5"]
+        },
+		{
+            "label": "sn1",
+            "vehicles": 10,
+            "edges": ["-E3","-E2"]
+        },
+        {
+            "label": "sn2",
+            "vehicles": 10,
+            "edges": ["-E5","-E4"]
+        },
+        {
+            "label": "ew",
+            "vehicles": 50,
+            "edges": ["E6","-E1", "-E0"]
+        },
+        {
+            "label": "we",
+            "vehicles": 50,
+            "edges": ["E0","E1","-E6"]
+        }
+    ]
+}
